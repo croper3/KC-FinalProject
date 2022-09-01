@@ -2,10 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class pause : MonoBehaviour
 {
     public static bool gameispaused = false;
     public GameObject pauseMenuUI;
+
+
+    private void Start()
+    {
+       
+    }
 
     // Update is called once per frame
     void Update()
@@ -34,4 +41,5 @@ public class pause : MonoBehaviour
         Time.timeScale = 0f;
         gameispaused = true;
     }
+    
 }
