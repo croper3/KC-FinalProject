@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto' , sans-serif;
+ }
+
+ body{
+   width:100%;
+   height:100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(img/NCERT-Solutions-For-Class-8-History.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   background-size: 100%;
+   padding-left: 8%;
+   padding-right: 8%;
+   box-sizing: border-box;
+   background-repeat: no-repeat;
+ 
+}
+ .navbar{
+    height:12%;
+    display:flex;
+    align-items: center;
+ }
+
+ .logo{
+    width:75px;
+    height:75px;
+    cursor:poiner;
+ }
+ .menu-icon{
+    width:30px;
+    cursor:pointer;
+    margin-left: 40px;
+
+ }
+
+ nav{
+    flex:1;
+    text-align:right;
+ }
+
+ nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-left:60px;
+ }
+
+ nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size:13px;
+ }
+
+ .form{
+    color:#fff;
+ }
+
+ 
